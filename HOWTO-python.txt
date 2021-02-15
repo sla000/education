@@ -1,0 +1,29 @@
+how to work with json:
+    import json # in the begin of file
+
+    string to python object:
+        dict = json.loads('{ "aaa" : 1 }')
+    python object to string:
+        string = json.dumps(dict) # string will be '{ "aaa" : 1 }'
+
+Work with dict:
+    dict = { 'aaa' : 1, 'bbb' : 2 }
+    print (dict.keys()) -> look at keys in dict
+    print (dict.values()) -> look at values in dict
+    print (dict.items()) -> return pairs from (key, value)
+    
+    for key in dict:
+        # print key
+        print (key) 
+        # print value for key
+        print (dict[key]) 
+
+Work with list:
+    some_list = [ 'ivan', 'petr', 'olya' ]
+    for name in some_list:
+        # print each element in list
+        print (name)
+    
+
+   
+

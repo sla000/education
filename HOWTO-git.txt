@@ -1,0 +1,9 @@
+Download:
+    git clone https://github.com/sla000/education.git
+Check status:
+    git status
+Commit changes:
+    git add <filename>
+    git commit -m 'Commit message'
+Push changes on server:
+    git push
